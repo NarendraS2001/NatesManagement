@@ -1,0 +1,9 @@
+.list {
+    max-height: 400px; 
+    overflow: auto; 
+    border: 1px solid #ccc; 
+    padding: 10px; /* Optional: Add padding for spacing */
+    padding-left: 20px;
+    margin-top: 40px;
+    background-color: rgb(230, 175, 75);
+  }

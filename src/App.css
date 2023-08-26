@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: space-between; /* Space items evenly horizontally */
+  align-items: flex-start; /* Align items at the top vertically */
+  max-width: 1300px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding for spacing */
+  background-color: #f0f0f0; /* Set your desired background color */
+}
+
+.notes-app{
+  flex: 1; /* Distribute available space evenly between the two sections */
+  padding: 20px; /* Add padding for spacing within each section */
+  background-color: #fff; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  margin: 0 10px; /* Add margin for spacing between the sections */
+}
+.notes-app,h2{
+  margin-bottom: 10px;
+  padding-left: 12px;
+  padding-top: 10px;
+}
+
+.notes-collection {
+  flex: 1; /* Distribute available space evenly between the two sections */
+  padding: 20px; /* Add padding for spacing within each section */
+  background-color: #fff; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  margin: 0 10px; /* Add margin for spacing between the sections */
+}
+.notes-collection,h2{
+  margin-bottom: 10px;
+  padding-left: 12px;
+  padding-top: 10px;
+}
